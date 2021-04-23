@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BStackTest" parallel="classes" thread-count="2">
+    <test name="BStackTest">
+        <classes>
+            <class name="BStackHeadfulTest"/>
+            <class name="BStackHeadlessTest"/>
+        </classes>
+    </test>
+</suite>
